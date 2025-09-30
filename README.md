@@ -1,41 +1,22 @@
-# Vogue Runway Scraper
-Scrapes high resolution images from [Vogue Runway](https://www.vogue.com/fashion-shows).
+# Vogue Runway Analysis
 
-![gucci-spring-2018-ready-to-wear-1](https://github.com/TonyAssi/Vogue-Runway-Scraper/assets/42156881/081f2c82-fbc5-419f-a0e8-52f8f1a8cdcd)
+This project combines fashion and data science to analyze runway collections.  
+It includes tools for scraping images, classifying clothing articles with FashionCLIP,  
+and running exploratory data analysis (EDA) to uncover fashion trends.  
 
-Try out the Web Demo: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/tonyassi/vogue-runway-scraper)
+---
+
+## Features
+- 🖼️ **Vogue Runway Scraper** – collect runway images and metadata  
+- 👗 **FashionCLIP** – classify clothing articles and extract semantic features  
+- 📊 **Exploratory Data Analysis** – visualize trends across designers and seasons  
+
+---
 
 ## Installation
-```bash
-pip install -r requirements.txt
-```
+Clone the repository and install dependencies:
 
-## Usage
-Import the scraper module
-```python
-import vogue
-```
-Get a list of all the runway shows from a particular designer
-```python
-vogue.designer_to_shows('gucci')
-```
-Download images from a designer and specific runway show
-```python
-vogue.designer_show_to_download_images('gucci', 'Spring 2018 Ready-to-Wear', './images')
-```
-Download all images from all shows of a designer
-```python
-vogue.designer_to_download_images('gucci', './images')
-```
-Save image urls to csv from a designer and specific runway show
-```python
-vogue.designer_show_to_csv('gucci', 'Spring 2018 Ready-to-Wear', '.')
-```
-Save image urls to csv from a designer for all shows
-```python
-vogue.designer_to_csv('gucci', '.')
-```
-Save image urls to csv from all designers in a .txt file
-```python
-vogue.all_designers_to_csv('designers.txt', '.')
-```
+```bash
+git clone https://github.com/tracieluong/vogue-runway-analysis.git
+cd vogue-runway-analysis
+pip install -r requirements.txt
