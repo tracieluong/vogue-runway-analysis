@@ -7,7 +7,7 @@ and running exploratory data analysis (EDA) to uncover fashion trends.
 ---
 
 ## Features
-- 🖼️ **Vogue Runway Scraper** – collect runway images and metadata  
+- 🖼️ **Vogue Runway Scraper** by @TonyAssi– collect runway images and metadata  
 - 👗 **FashionCLIP** – classify clothing articles and extract semantic features  
 - 📊 **Exploratory Data Analysis** – visualize trends across designers and seasons  
 
